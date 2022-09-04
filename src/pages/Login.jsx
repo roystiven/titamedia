@@ -13,17 +13,7 @@ const Login = () => {
     }
   }
  
-  useEffect(() => {
-   google.accounts.id.initialize({
-    client_id:"635490349853-hc4cstvoqs0ahj4n1468mg66ouvshdfv.apps.googleusercontent.com",
-    callback:handleCallbackResponse
-  })
-  google.accounts.id.renderButton(
-    document.getElementById("signInDiv"),
-    {theme:"outline", size:"large"}
-  )
-  }, [])
-  
+
 
   return (
     <div className="o-container-login">
