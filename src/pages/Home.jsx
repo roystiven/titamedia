@@ -42,6 +42,8 @@ const Home = () => {
      
       <div className="o-container-home">
         <div className="o-div-filtro">
+          <p className="o-p-fecha"> Puedes filtrar los post dando clic en los tags</p>
+          <br />
           <button className="o-borrar-filtro" onClick={handleBorrarFiltro}>Borrar Filtros</button>
         </div>
   

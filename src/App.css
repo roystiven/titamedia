@@ -147,7 +147,9 @@ body{
   margin-left: 2rem;
   width: 100%;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  
 }
 
 .titulo-login{
@@ -156,4 +158,20 @@ body{
   font-size: 1.4rem;
   font-weight: 600;
   color: white;
+}
+
+.o-div-form-login{
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+}
+
+.o-div-google{
+  display: flex;
+  justify-content: center;
+  width: 20rem;
+}
+
+.text-align{
+  text-align: center;
 }
